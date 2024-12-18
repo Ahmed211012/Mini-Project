@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tukums - A Charming City in Latvia</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+        }
+        header, footer {
+            background: #333;
+            color: #fff;
+            text-align: center;
+            padding: 1rem 0;
+        }
+        nav {
+            display: flex;
+            justify-content: center;
+            background: #555;
+            padding: 0.5rem 0;
+        }
+        nav a {
+            color: white;
+            margin: 0 1rem;
+            text-decoration: none;
+        }
+        nav a:hover {
+            text-decoration: underline;
+        }
+        section {
+            padding: 2rem;
+        }
+        .map, .media {
+            display: flex;
+            justify-content: center;
+            margin: 1rem 0;
+        }
+        iframe {
+            border: 0;
+        }
+        .events, .notice-board, .info-box {
+            margin: 1rem 0;
+        }
+        .info-box {
+            background: #f4f4f4;
+            padding: 1rem;
+            border: 1px solid #ddd;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Welcome to Tukums</h1>
+        <p>Discover the charm of a small Latvian city!</p>
+    </header>
+    <nav>
+        <a href="#history">History</a>
+        <a href="#map">Map</a>
+        <a href="#transport">Public Transport</a>
+        <a href="#tourism">Tourism</a>
+        <a href="#events">Events</a>
+        <a href="#notice">Notice Board</a>
+    </nav>
+
+    <section id="history">
+        <h2>History of Tukums</h2>
+        <p>Tukums is a historic city located in the western part of Latvia. Known for its beautiful landscapes and cultural heritage, the city has roots dating back to the Middle Ages. Tukums is a vibrant hub for art, history, and local traditions.</p>
+    </section>
+
+    <section id="map">
+        <h2>Maps</h2>
+        <div class="map">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2562.3941562236185!2d23.155253815720755!3d56.96732578089711!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x46eed3f31e93c22d%3A0x400cfcd68f3e000!2sTukums%2C%20Latvia!5e0!3m2!1sen!2sus!4v1671812345678" width="600" height="450" allowfullscreen=""></iframe>
+        </div>
+        <p>Explore the local area and city layout.</p>
+    </section>
+
+    <section id="transport">
+        <h2>Public Transport</h2>
+        <p>Tukums offers reliable public transport options including buses and taxis. The central bus station connects Tukums to nearby towns and cities.</p>
+    </section>
+
+    <section id="tourism">
+        <h2>Tourism and Attractions</h2>
+        <p>Discover beautiful parks, museums, and cultural landmarks in Tukums. Popular destinations include the Tukums Museum and Jaunmoku Castle.</p>
+        <div class="media">
+            <img src="images/tukums_photo.jpg" alt="Tukums photo" style="max-width: 300px; margin: 0 1rem;">
+            <video controls style="max-width: 300px;">
+                <source src="videos/tukums_tour.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
+        </div>
+    </section>
+
+    <section id="weather">
+        <h2>Current Weather</h2>
+        <div class="info-box">
+            <p>Temperature: 10°C</p>
+            <p>Condition: Cloudy</p>
+        </div>
+    </section>
+
+    <section id="events">
+        <h2>Events in Tukums</h2>
+        <div class="events">
+            <p>December 20th: Christmas Market</p>
+            <p>January 1st: New Year's Celebration</p>
+        </div>
+    </section>
+
+    <section id="notice">
+        <h2>Notice Board</h2>
+        <div class="notice-board">
+            <p>Community meeting on January 10th at City Hall.</p>
+            <p>Street maintenance updates available online.</p>
+        </div>
+    </section>
+
+    <section id="admin">
+        <h2>Administrative Buildings</h2>
+        <ul>
+            <li><strong>City Hall:</strong> Main Square, Tukums. <a href="#">Visit website</a></li>
+            <li><strong>Tourist Information Center:</strong> Park Avenue, Tukums. <a href="#">Visit website</a></li>
+        </ul>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Tukums City Portal. All rights reserved.</p>
+    </footer>
+</body>
+</html>
